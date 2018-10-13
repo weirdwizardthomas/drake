@@ -25,19 +25,18 @@ public class Troop {
     public Troop(String name) {
         int pivotValue = 1;
         this.name = name;
-        this.aversPivot =  pivotValue;
-        this.reversPivot = pivotValue;
+        this.aversPivot = new Offset2D(pivotValue, pivotValue);
+        this.reversPivot = new Offset2D(pivotValue, pivotValue);
     }
 
-    public String Name() {
+    public String name() {
         return this.name;
     }
 
     public Offset2D pivot(TroopFace face){
         if(face == TroopFace.AVERS)
             return this.aversPivot;
-
-        if(face == TroopFace.REVERS)
+        else
             return this.reversPivot;
     }
 
