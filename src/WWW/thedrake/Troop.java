@@ -1,6 +1,4 @@
-package weirdwizards.thedrake;
-
-import com.sun.scenario.effect.Offset;
+package WWW.thedrake;
 
 public class Troop {
 
@@ -10,6 +8,7 @@ public class Troop {
     private final Offset2D reversPivot;
     //-------------------------------------
 
+    //Constructors-------------------------
     public Troop(String name, Offset2D aversPivot, Offset2D reversPivot) {
         this.name = name;
         this.aversPivot = aversPivot;
@@ -29,6 +28,7 @@ public class Troop {
         this.reversPivot = new Offset2D(pivotValue, pivotValue);
     }
 
+    //Other-methods------------------------
     public String name() {
         return this.name;
     }
