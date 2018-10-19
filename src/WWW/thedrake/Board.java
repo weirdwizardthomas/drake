@@ -1,55 +1,55 @@
 package WWW.thedrake;
 
-public class Board {
-	
+public final class Board {
+
+	private final int dimension;
+	private final BoardTile[][] board;
+
 	public Board(int dimension) {
-		// Místo pro váš kód
+        if (dimension < 0)
+            throw new IllegalArgumentException("The dimension needs to be positive.");
 
+        this.dimension = dimension;
+        board = new BoardTile[dimension][dimension];
 
-		// tmp
-	}
-		
-	public int dimension() {
-		// Místo pro váš kód
+        for (int row = 0; row < dimension; row++) {
+            for (int col = 0; col < dimension; col++) {
+                board[row][col] = BoardTile.EMPTY;
+            }
+        }
+    }
 
+    public Board(int dimension, BoardTile[][] board) {
+        this.dimension = dimension;
+        this.board = board;
+    }
 
-		// tmp
-
-		return 1;
+    public int dimension() {
+		return dimension;
 	} 
 	
 	public BoardTile at(BoardPos pos) {
-		// Místo pro váš kód
-
-
-		// tmp
-		return new BoardTile() {
-			@Override
-			public boolean canStepOn() {
-				return false;
-			}
-
-			@Override
-			public boolean hasTroop() {
-				return false;
-			}
-		};
+	    return board[pos.i()][pos.j()];
 	}
-		
+
 	public Board withTiles(TileAt ...ats) {
-		// Místo pro váš kód
 
+	    BoardTile[][] newBoard = new BoardTile[this.dimension()][this.dimension()];
 
-		// tmp
-		return this;
+	    for(int i = 0; i < this.dimension(); i++) {
+            newBoard[i] = board[i].clone();
+        }
+
+	    for (TileAt tile : ats){
+            newBoard[tile.pos.i()][tile.pos.j()] = tile.tile;
+        }
+
+        return new Board(this.dimension(), newBoard);
 	}
 	
 	public PositionFactory positionFactory() {
-		// Místo pro váš kód
 
-
-		// tmp
-		return new PositionFactory(1);
+		return new PositionFactory(this.dimension());
 	}
 	
 	public static class TileAt {
