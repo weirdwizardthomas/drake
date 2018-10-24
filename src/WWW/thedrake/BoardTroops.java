@@ -61,14 +61,23 @@ public class BoardTroops {
 	    if(!position.isPresent())
             throw new IllegalArgumentException("That position is already occupied.");
 
-	    //continue here
+	    //initialise a new map
+		Map<BoardPos, TroopTile> newMap = Collections.emptyMap();
 
-	    BoardTroops updated = new BoardTroops();
+		//fill with previous data
+		for(BoardPos i :troopPositions())
+			newMap.put(i,this.troopMap.get(i));
 
+		TroopTile tmp = new TroopTile(troop, this.playingSide, TroopFace.AVERS);
+
+		//place the trooper
+		newMap.put(target,tmp);
+
+		//determine whether a leader was placed or not
 	    if(this.leaderPosition == TilePos.OFF_BOARD)
-
-
-
+			return new BoardTroops(this.playingSide, this.troopMap, target, this.guards);
+	    else
+	    	return new BoardTroops(this.playingSide, this.troopMap, this.leaderPosition, this.guards);
 
 	}
 	
