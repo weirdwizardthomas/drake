@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1e7444b-e4a0-4809-b8c6-db5ff3a64831" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/WWW/WWW/thedrake/Board$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WWW/WWW/thedrake/Board$TileAt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WWW/WWW/thedrake/Board.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WWW/WWW/thedrake/BoardPos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WWW/WWW/thedrake/BoardTile$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WWW/WWW/thedrake/BoardTile$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WWW/WWW/thedrake/BoardTile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WWW/WWW/thedrake/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WWW/WWW/thedrake/Offset2D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WWW/WWW/thedrake/PlayingSide.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WWW/WWW/thedrake/PositionFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WWW/WWW/thedrake/Tile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WWW/WWW/thedrake/TilePos$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WWW/WWW/thedrake/TilePos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WWW/WWW/thedrake/Troop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WWW/WWW/thedrake/TroopFace.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WWW/WWW/thedrake/TroopTile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WWW/main/MainSuite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WWW/suite01/Offset2DTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WWW/suite01/TestSuite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WWW/suite01/TroopTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WWW/thedrake/BoardTroops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WWW/thedrake/BoardTroops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WWW/thedrake/TroopTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WWW/thedrake/TroopTile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/MainSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MainSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/suite02/TestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/suite02/TestSuite.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,7 +54,7 @@
     <session id="-572021244">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.40" value="1" />
@@ -81,22 +64,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1792" />
+          <entry key="java" value="1899" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1792" />
+          <entry key="JAVA" value="1899" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="26" />
+          <entry key="java" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="26" />
+          <entry key="JAVA" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -138,15 +121,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/BoardTile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/TilePos.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -164,23 +138,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/Army.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/BoardTroops.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="75" column="54" selection-start-line="75" selection-start-column="54" selection-end-line="75" selection-end-column="54" />
+            <state relative-caret-position="207">
+              <caret line="77" column="79" selection-start-line="77" selection-start-column="79" selection-end-line="77" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#815#816#0" expanded="true" />
@@ -203,10 +165,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/suite02/Offset2DTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/suite01/Offset2DTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/suite03/BoardTroopsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="75" column="69" lean-forward="true" selection-start-line="75" selection-start-column="69" selection-end-line="75" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/TroopTile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="425">
+              <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
               <folding>
                 <element signature="e#530#531#0" expanded="true" />
                 <element signature="e#562#563#0" expanded="true" />
@@ -216,37 +211,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/BoardPos.java">
+        <entry file="file://$PROJECT_DIR$/src/suite02/TroopTileTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="343">
+              <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/Troop.java">
+        <entry file="file://$PROJECT_DIR$/src/suite02/TroopTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+            <state relative-caret-position="204">
+              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/PlayingSide.java">
+        <entry file="file://$PROJECT_DIR$/src/suite01/TroopTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/TroopFace.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            <state relative-caret-position="204">
+              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -278,18 +267,21 @@
         <option value="$PROJECT_DIR$/main/MainSuite.java" />
         <option value="$PROJECT_DIR$/src/weirdwizards/thedrake/Troop.java" />
         <option value="$PROJECT_DIR$/src/weirdwizards/thedrake/Offset2D.java" />
-        <option value="$PROJECT_DIR$/src/suite01/Offset2DTest.java" />
-        <option value="$PROJECT_DIR$/src/suite01/TroopTest.java" />
         <option value="$PROJECT_DIR$/src/WWW/thedrake/PlayingSide.java" />
         <option value="$PROJECT_DIR$/src/WWW/thedrake/Tile.java" />
         <option value="$PROJECT_DIR$/src/WWW/thedrake/Offset2D.java" />
-        <option value="$PROJECT_DIR$/src/WWW/thedrake/TroopTile.java" />
         <option value="$PROJECT_DIR$/src/WWW/thedrake/BoardPos.java" />
         <option value="$PROJECT_DIR$/src/WWW/thedrake/PositionFactory.java" />
         <option value="$PROJECT_DIR$/src/WWW/thedrake/BoardTile.java" />
         <option value="$PROJECT_DIR$/src/WWW/thedrake/TilePos.java" />
         <option value="$PROJECT_DIR$/src/WWW/thedrake/Board.java" />
         <option value="$PROJECT_DIR$/src/WWW/thedrake/Army.java" />
+        <option value="$PROJECT_DIR$/src/suite02/Offset2DTest.java" />
+        <option value="$PROJECT_DIR$/src/suite01/Offset2DTest.java" />
+        <option value="$PROJECT_DIR$/src/suite03/BoardTroopsTest.java" />
+        <option value="$PROJECT_DIR$/src/suite02/TroopTest.java" />
+        <option value="$PROJECT_DIR$/src/suite01/TroopTest.java" />
+        <option value="$PROJECT_DIR$/src/WWW/thedrake/TroopTile.java" />
         <option value="$PROJECT_DIR$/src/WWW/thedrake/BoardTroops.java" />
       </list>
     </option>
@@ -363,12 +355,13 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539879114096" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540405497851" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -457,7 +450,7 @@
       <workItem from="1539877392451" duration="121000" />
       <workItem from="1539877581476" duration="1532000" />
       <workItem from="1540394470162" duration="1432000" />
-      <workItem from="1540403867531" duration="973000" />
+      <workItem from="1540403867531" duration="1634000" />
     </task>
     <servers />
   </component>
@@ -467,11 +460,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12854000" />
+    <option name="totallyTimeSpent" value="13515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24093817" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -480,6 +472,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.32952183" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952183" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32848233" />
@@ -491,7 +484,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32952183" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32848233" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32848233" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -527,20 +520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/suite01/TroopTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/suite01/Offset2DTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -604,17 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/TroopTile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/TroopFace.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -636,10 +604,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/suite02/Offset2DTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/suite01/Offset2DTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/suite02/TroopTileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/suite02/TroopTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/suite01/TroopTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/suite03/BoardTroopsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="75" column="69" lean-forward="true" selection-start-line="75" selection-start-column="69" selection-end-line="75" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/TroopTile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+          <folding>
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/BoardTroops.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="75" column="54" selection-start-line="75" selection-start-column="54" selection-end-line="75" selection-end-column="54" />
+        <state relative-caret-position="207">
+          <caret line="77" column="79" selection-start-line="77" selection-start-column="79" selection-end-line="77" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#815#816#0" expanded="true" />

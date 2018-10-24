@@ -25,6 +25,7 @@ public class TroopTile implements Tile {
         return this.troop;
     }
 
+    public TroopFace face(){ return this.face;}
 
     //------------------------------------
     public boolean canStepOn(){

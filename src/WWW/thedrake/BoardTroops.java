@@ -73,7 +73,7 @@ public class BoardTroops {
 		//place the trooper
 		newMap.put(target,tmp);
 
-		//determine whether a leader was placed or not
+		//determine whether a leader was placed
 	    if(this.leaderPosition == TilePos.OFF_BOARD)
 			return new BoardTroops(this.playingSide, this.troopMap, target, this.guards);
 	    else
@@ -82,9 +82,9 @@ public class BoardTroops {
 	}
 	
 	public BoardTroops troopStep(BoardPos origin, BoardPos target) {
-		// Místo pro váš kód
+		// TODO
 	}
-	
+
 	public BoardTroops troopFlip(BoardPos origin) {
 		if(!isLeaderPlaced()) {
 			throw new IllegalStateException(
@@ -107,6 +107,6 @@ public class BoardTroops {
 	}
 	
 	public BoardTroops removeTroop(BoardPos target) {
-		// Místo pro váš kód
+        // TODO
 	}	
 }
