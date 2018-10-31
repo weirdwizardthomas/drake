@@ -44,6 +44,6 @@ public class TroopTile implements Tile {
             swap = TroopFace.REVERS;
         else
             swap = TroopFace.AVERS;
-            return new TroopTile(this.troop, this.side, swap);
+        return new TroopTile(this.troop, this.side, swap);
     }
 }

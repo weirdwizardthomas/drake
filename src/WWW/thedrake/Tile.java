@@ -1,10 +1,9 @@
 package WWW.thedrake;
 
+import java.util.List;
+
 public interface Tile {
-
-    //Tile is vacant and can be stepped on
-    public boolean canStepOn();
-
-    //Tile contains a unit
-    public boolean hasTroop();
+	public boolean canStepOn();
+	public boolean hasTroop();
+	public List<Move> movesFrom(BoardPos pos, GameState state);
 }

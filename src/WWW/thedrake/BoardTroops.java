@@ -27,7 +27,8 @@ public class BoardTroops {
 	}
 
 	public Optional<TroopTile> at(TilePos pos) {
-		return Optional.of(this.troopMap.get(pos));
+	    return Optional.ofNullable(this.troopMap.get(pos));
+
 	}
 	
 	public PlayingSide playingSide() {
@@ -47,7 +48,7 @@ public class BoardTroops {
 	}
 	
 	public boolean isPlacingGuards() {
-		return isLeaderPlaced() && guards <= 2;
+		return isLeaderPlaced() && guards < 2;
 	}	
 	
 	public Set<BoardPos> troopPositions() {
@@ -56,33 +57,47 @@ public class BoardTroops {
 
 	public BoardTroops placeTroop(Troop troop, BoardPos target) {
 
-	    Optional<TroopTile> position = this.at(target);
+	    if(this.at(target).isPresent())
+	        throw new IllegalArgumentException();
 
-	    if(!position.isPresent())
-            throw new IllegalArgumentException("That position is already occupied.");
+        Map<BoardPos, TroopTile> newMap = new HashMap<>(troopMap);
+        //add the new trooper
+        newMap.put(target,new TroopTile(troop,playingSide(),TroopFace.AVERS));
 
-	    //initialise a new map
-		Map<BoardPos, TroopTile> newMap = Collections.emptyMap();
+        int newGuards = guards();
+        if(isPlacingGuards())
+            newGuards++;
 
-		//fill with previous data
-		for(BoardPos i :troopPositions())
-			newMap.put(i,this.troopMap.get(i));
+        TilePos newLeaderPosition = leaderPosition();
 
-		TroopTile tmp = new TroopTile(troop, this.playingSide, TroopFace.AVERS);
+        //determine leader's position
+	    if(!isLeaderPlaced())
+            newLeaderPosition = target;
 
-		//place the trooper
-		newMap.put(target,tmp);
-
-		//determine whether a leader was placed
-	    if(this.leaderPosition == TilePos.OFF_BOARD)
-			return new BoardTroops(this.playingSide, this.troopMap, target, this.guards);
-	    else
-	    	return new BoardTroops(this.playingSide, this.troopMap, this.leaderPosition, this.guards);
-
+	    return new BoardTroops(playingSide(),newMap, newLeaderPosition, newGuards);
 	}
 	
 	public BoardTroops troopStep(BoardPos origin, BoardPos target) {
-		// TODO
+
+	    if(!isLeaderPlaced() || isPlacingGuards())
+	        throw new IllegalStateException();
+
+	    //target is occupied OR origin is vacant
+	    if(this.at(target).isPresent() || !this.at(origin).isPresent())
+	        throw new IllegalArgumentException();
+
+	    Map<BoardPos, TroopTile> newMap = new HashMap<>(troopMap);
+        TilePos newLeaderPosition = this.leaderPosition();
+
+	    //flip the OG trooper
+	    TroopTile movedTrooper = this.troopMap.get(origin).flipped();
+        newMap.put(target, movedTrooper);
+        newMap.remove(origin);
+	    //determine whether a leader's getting re-placed or not
+	    if(this.leaderPosition().equals(origin))
+	        newLeaderPosition = target;
+
+        return new BoardTroops(this.playingSide(),newMap,newLeaderPosition,this.guards());
 	}
 
 	public BoardTroops troopFlip(BoardPos origin) {
@@ -107,6 +122,23 @@ public class BoardTroops {
 	}
 	
 	public BoardTroops removeTroop(BoardPos target) {
-        // TODO
-	}	
+        if(!isLeaderPlaced() || isPlacingGuards())
+            throw new IllegalStateException();
+
+        //trying to remove from an unoccupied tile
+        if(!at(target).isPresent())
+            throw new IllegalArgumentException();
+
+        Map<BoardPos, TroopTile> newMap = new HashMap<>(troopMap);
+        newMap.remove(target);
+
+        TilePos newLeaderPosition = leaderPosition();
+
+        //removing leader
+        if(leaderPosition().equals(target))
+            newLeaderPosition = TilePos.OFF_BOARD;
+
+
+        return new BoardTroops(playingSide(),newMap, newLeaderPosition, guards());
+    }
 }
