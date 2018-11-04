@@ -73,7 +73,7 @@ public class GameState{
 	}
 	
 	private boolean canStepFrom(TilePos origin) {
-		if(!result != GameResult.IN_PLAY) {
+		if(result != GameResult.IN_PLAY) {
 			return false;
 		}
 
@@ -93,11 +93,43 @@ public class GameState{
 	}
 
 	private boolean canStepTo(TilePos target) {
-		return (result == GameResult.IN_PLAY) && (board.at(target).canStepOn());
-	}
+        if(result != GameResult.IN_PLAY) {
+            return false;
+        }
+
+        if(blueArmy.boardTroops().at(target).isPresent()){
+            return false;
+        }
+
+        if(orangeArmy.boardTroops().at(target).isPresent()){
+            return false;
+        }
+
+        BoardPos boardPos;
+        try {
+            boardPos = new BoardPos(board.dimension(), target.i(), target.j());
+        }
+        catch (UnsupportedOperationException e){
+            return false;
+        }
+
+	    return board.at(boardPos).canStepOn();
+    }
 	
 	private boolean canCaptureOn(TilePos target) {
-		// Místo pro váš kód
+
+        if(result != GameResult.IN_PLAY) {
+            return false;
+        }
+
+        if (sideOnTurn == PlayingSide.BLUE){
+            return orangeArmy.boardTroops().at(target).isPresent();
+        }
+        else if (sideOnTurn == PlayingSide.ORANGE){
+            return blueArmy.boardTroops().at(target).isPresent();
+        }
+
+		return false;
 	}
 	
 	public boolean canStep(TilePos origin, TilePos target)  {
@@ -109,23 +141,82 @@ public class GameState{
 	}
 	
 	public boolean canPlaceFromStack(TilePos target) {
-		// Místo pro váš kód
+        if(result != GameResult.IN_PLAY) {
+            return false;
+        }
+
+        Army army;
+        if (sideOnTurn == PlayingSide.BLUE){
+            army = blueArmy;
+        }
+        else {
+            army = orangeArmy;
+        }
+
+
+
+        if (sideOnTurn == PlayingSide.BLUE){
+            if(blueArmy.stack().isEmpty()){
+                return false;
+            }
+
+            if (!blueArmy.boardTroops().isLeaderPlaced()){
+                int j;
+                try {
+                    j = target.j();
+                }
+                catch (UnsupportedOperationException e){
+                    return false;
+                }
+                return j == 0 && canStepTo(target);
+            }
+            else if (blueArmy.boardTroops().isPlacingGuards()){
+                return blueArmy.boardTroops().leaderPosition().isNextTo(target) && canStepTo(target);
+            }
+            else{
+                return canStepTo(target);
+            }
+        }
+        else if (sideOnTurn == PlayingSide.ORANGE) {
+            if(orangeArmy.stack().isEmpty()){
+                return false;
+            }
+
+            if (!orangeArmy.boardTroops().isLeaderPlaced()){
+                int j;
+                try {
+                    j = target.j();
+                }
+                catch (UnsupportedOperationException e){
+                    return false;
+                }
+                return j == board.dimension()-1 && canStepTo(target);
+            }
+            else if (orangeArmy.boardTroops().isPlacingGuards()){
+                return orangeArmy.boardTroops().leaderPosition().isNextTo(target) && canStepTo(target);
+            }
+            else{
+                return canStepTo(target);
+            }
+        }
+
+		return false;
 	}
-	
-	public GameState stepOnly(BoardPos origin, BoardPos target) {		
-		if(canStep(origin, target))		 
+
+	public GameState stepOnly(BoardPos origin, BoardPos target) {
+		if(canStep(origin, target))
 			return createNewGameState(
 					armyNotOnTurn(),
 					armyOnTurn().troopStep(origin, target), GameResult.IN_PLAY);
-		
+
 		throw new IllegalArgumentException();
 	}
-	
+
 	public GameState stepAndCapture(BoardPos origin, BoardPos target) {
 		if(canCapture(origin, target)) {
 			Troop captured = armyNotOnTurn().boardTroops().at(target).get().troop();
 			GameResult newResult = GameResult.IN_PLAY;
-			
+
 			if(armyNotOnTurn().boardTroops().leaderPosition().equals(target))
 				newResult = GameResult.VICTORY;
 			
