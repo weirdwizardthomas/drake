@@ -153,8 +153,6 @@ public class GameState{
             army = orangeArmy;
         }
 
-
-
         if (sideOnTurn == PlayingSide.BLUE){
             if(blueArmy.stack().isEmpty()){
                 return false;
