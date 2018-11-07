@@ -1,5 +1,7 @@
 package WWW.thedrake;
 
+import java.io.PrintWriter;
+
 public final class Board {
 
 	private final int dimension;
@@ -51,7 +53,15 @@ public final class Board {
 
 		return new PositionFactory(this.dimension());
 	}
-	
+
+	public void toJSON(PrintWriter writer) {
+		writer.append("\"board\": ");
+		writer.append(" {");
+		writer.append("\"dimension\": " + dimension() + ",");
+		for(BoardTile tile : board)
+		    tile.toJSON(writer);
+	}
+
 	public static class TileAt {
 		public final BoardPos pos;
 		public final BoardTile tile;

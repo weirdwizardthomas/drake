@@ -8,17 +8,17 @@ import java.util.Set;
 
 import org.junit.Test;
 
-import WWW.thedrake.Army;
-import WWW.thedrake.Board;
-import WWW.thedrake.BoardTroops;
-import WWW.thedrake.CaptureOnly;
-import WWW.thedrake.GameState;
-import WWW.thedrake.Move;
-import WWW.thedrake.PlayingSide;
-import WWW.thedrake.PositionFactory;
-import WWW.thedrake.StandardDrakeSetup;
-import WWW.thedrake.StepAndCapture;
-import WWW.thedrake.StepOnly;
+import podlomar.thedrake.Army;
+import podlomar.thedrake.Board;
+import podlomar.thedrake.BoardTroops;
+import podlomar.thedrake.CaptureOnly;
+import podlomar.thedrake.GameState;
+import podlomar.thedrake.Move;
+import podlomar.thedrake.PlayingSide;
+import podlomar.thedrake.PositionFactory;
+import podlomar.thedrake.StandardDrakeSetup;
+import podlomar.thedrake.StepAndCapture;
+import podlomar.thedrake.StepOnly;
 
 public class ActionsTest {
 

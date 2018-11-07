@@ -8,9 +8,9 @@ import java.lang.reflect.Modifier;
 
 import org.junit.Test;
 
-import WWW.thedrake.Board;
-import WWW.thedrake.BoardTile;
-import WWW.thedrake.PositionFactory;
+import podlomar.thedrake.Board;
+import podlomar.thedrake.BoardTile;
+import podlomar.thedrake.PositionFactory;
 
 public class BoardTest {
 

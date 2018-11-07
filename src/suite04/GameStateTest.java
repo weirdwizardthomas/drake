@@ -9,14 +9,14 @@ import java.util.Collections;
 
 import org.junit.Test;
 
-import WWW.thedrake.Army;
-import WWW.thedrake.Board;
-import WWW.thedrake.BoardTile;
-import WWW.thedrake.GameState;
-import WWW.thedrake.PlayingSide;
-import WWW.thedrake.PositionFactory;
-import WWW.thedrake.StandardDrakeSetup;
-import WWW.thedrake.TilePos;
+import podlomar.thedrake.Army;
+import podlomar.thedrake.Board;
+import podlomar.thedrake.BoardTile;
+import podlomar.thedrake.GameState;
+import podlomar.thedrake.PlayingSide;
+import podlomar.thedrake.PositionFactory;
+import podlomar.thedrake.StandardDrakeSetup;
+import podlomar.thedrake.TilePos;
 
 public class GameStateTest {
 
@@ -42,7 +42,7 @@ public class GameStateTest {
 		PositionFactory pf = state.board().positionFactory();
 		
 		assertFalse(state.canPlaceFromStack(TilePos.OFF_BOARD));
-
+		
 		// Placing the blue leader
 		assertTrue(state.canPlaceFromStack(pf.pos("a1")));
 		assertTrue(state.canPlaceFromStack(pf.pos("b1")));
@@ -126,7 +126,7 @@ public class GameStateTest {
 		assertFalse(state.canPlaceFromStack(pf.pos("a3")));
 		assertFalse(state.canPlaceFromStack(pf.pos("b3")));
 		assertFalse(state.canPlaceFromStack(pf.pos("c3")));
-
+			
 		state = state.placeFromStack(pf.pos("c2"));
 	}
 	

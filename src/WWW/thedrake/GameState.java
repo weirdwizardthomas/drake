@@ -1,8 +1,9 @@
 package WWW.thedrake;
 
+import java.io.PrintWriter;
 import java.util.Optional;
 
-public class GameState{
+public class GameState implements JSONSerializable{
 	private final Board board;
 	private final PlayingSide sideOnTurn;
 	private final Army blueArmy;
@@ -274,4 +275,11 @@ public class GameState{
 		
 		return new GameState(board, armyNotOnTurn, armyOnTurn, PlayingSide.ORANGE, result); 
 	}
+
+	@Override
+	public void toJSON(PrintWriter writer) {
+        writer.append("\"result\": " + "\"" + result.toString() + "\",");
+        board.toJSON(writer);
+    }
+
 }

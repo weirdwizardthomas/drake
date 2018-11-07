@@ -1,5 +1,6 @@
 package WWW.thedrake;
 
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -58,5 +59,10 @@ public class TroopTile implements Tile {
         }
 
         return moves;
+    }
+
+    @Override
+    public void toJSON(PrintWriter writer) {
+
     }
 }
