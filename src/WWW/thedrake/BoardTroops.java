@@ -1,5 +1,6 @@
 package WWW.thedrake;
 
+import java.io.PrintWriter;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
@@ -141,4 +142,7 @@ public class BoardTroops {
 
         return new BoardTroops(playingSide(),newMap, newLeaderPosition, guards());
     }
+
+	public void toJSON(PrintWriter writer) {
+	}
 }

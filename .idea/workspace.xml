@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1e7444b-e4a0-4809-b8c6-db5ff3a64831" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WWW/thedrake/Army.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WWW/thedrake/Army.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WWW/thedrake/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WWW/thedrake/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WWW/thedrake/BoardTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WWW/thedrake/BoardTile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WWW/thedrake/BoardTroops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WWW/thedrake/BoardTroops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WWW/thedrake/GameResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WWW/thedrake/GameResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WWW/thedrake/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WWW/thedrake/GameState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WWW/thedrake/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WWW/thedrake/Tile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WWW/thedrake/TroopTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WWW/thedrake/TroopTile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/MainSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MainSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suite01/Offset2DTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/suite01/Offset2DTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suite01/TestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/suite01/TestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suite01/TroopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/suite01/TroopTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suite02/BoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/suite02/BoardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suite02/TestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/suite02/TestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suite02/TroopTileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/suite02/TroopTileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suite03/BoardTroopsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/suite03/BoardTroopsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suite03/TestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/suite03/TestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suite04/ActionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/suite04/ActionsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suite04/GameStateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/suite04/GameStateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/suite04/TestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/suite04/TestSuite.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -133,45 +124,75 @@
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.spring.boot.run.usages" />
     </session>
+    <session id="609572437">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="754" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="754" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/TilePos.java">
+        <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/GameState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/Board.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+            <state relative-caret-position="778">
+              <caret line="277" column="21" lean-forward="true" selection-start-line="277" selection-start-column="21" selection-end-line="277" selection-end-column="21" />
               <folding>
-                <element signature="e#697#698#0" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#GameState#0;class#GameState#0" />
+                <element signature="method#GameState#1;class#GameState#0" />
+                <element signature="method#army#0;class#GameState#0" />
+                <element signature="method#armyNotOnTurn#0;class#GameState#0" />
+                <element signature="method#tileAt#0;class#GameState#0" />
+                <element signature="method#canStepFrom#0;class#GameState#0" />
+                <element signature="method#canStepTo#0;class#GameState#0" />
+                <element signature="method#canCaptureOn#0;class#GameState#0" />
+                <element signature="method#canPlaceFromStack#0;class#GameState#0" />
+                <element signature="method#stepOnly#0;class#GameState#0" />
+                <element signature="method#stepAndCapture#0;class#GameState#0" />
+                <element signature="method#captureOnly#0;class#GameState#0" />
+                <element signature="method#placeFromStack#0;class#GameState#0" />
+                <element signature="method#resign#0;class#GameState#0" />
+                <element signature="method#draw#0;class#GameState#0" />
+                <element signature="method#createNewGameState#0;class#GameState#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/GameResult.java">
+        <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/Army.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/Tile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="846">
+              <caret line="90" column="26" lean-forward="true" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -180,10 +201,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/BoardTile.java">
+        <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/GameResult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/BoardMove.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -191,52 +225,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/BoardTroops.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+            <state relative-caret-position="761">
+              <caret line="145" column="44" lean-forward="true" selection-start-line="145" selection-start-column="44" selection-end-line="145" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#914#915#0" expanded="true" />
+                <element signature="e#944#945#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/GameState.java">
+        <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/PlayingSide.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1064">
-              <caret line="281" column="18" lean-forward="true" selection-start-line="281" selection-start-column="18" selection-end-line="281" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#army#0;class#GameState#0" />
-                <element signature="method#armyNotOnTurn#0;class#GameState#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/TroopTile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/suite02/TroopTileTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/suite01/TroopTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+            <state relative-caret-position="34">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -255,6 +259,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>podlomar</find>
+      <find>MOUNTAIN</find>
+      <find>mountain</find>
     </findStrings>
     <replaceStrings>
       <replace>WWW</replace>
@@ -280,22 +286,22 @@
         <option value="$PROJECT_DIR$/src/WWW/thedrake/Offset2D.java" />
         <option value="$PROJECT_DIR$/src/WWW/thedrake/BoardPos.java" />
         <option value="$PROJECT_DIR$/src/WWW/thedrake/PositionFactory.java" />
-        <option value="$PROJECT_DIR$/src/WWW/thedrake/BoardTile.java" />
         <option value="$PROJECT_DIR$/src/WWW/thedrake/TilePos.java" />
-        <option value="$PROJECT_DIR$/src/WWW/thedrake/Army.java" />
         <option value="$PROJECT_DIR$/src/suite02/Offset2DTest.java" />
         <option value="$PROJECT_DIR$/src/suite01/Offset2DTest.java" />
         <option value="$PROJECT_DIR$/src/suite03/BoardTroopsTest.java" />
         <option value="$PROJECT_DIR$/src/suite02/TroopTest.java" />
-        <option value="$PROJECT_DIR$/src/WWW/thedrake/BoardTroops.java" />
         <option value="$PROJECT_DIR$/src/WWW/thedrake/JSONSerializable.java" />
-        <option value="$PROJECT_DIR$/src/WWW/thedrake/GameResult.java" />
-        <option value="$PROJECT_DIR$/src/WWW/thedrake/GameState.java" />
-        <option value="$PROJECT_DIR$/src/WWW/thedrake/Board.java" />
         <option value="$PROJECT_DIR$/src/suite02/TroopTileTest.java" />
         <option value="$PROJECT_DIR$/src/suite01/TroopTest.java" />
         <option value="$PROJECT_DIR$/src/WWW/thedrake/Tile.java" />
         <option value="$PROJECT_DIR$/src/WWW/thedrake/TroopTile.java" />
+        <option value="$PROJECT_DIR$/src/WWW/thedrake/BoardTile.java" />
+        <option value="$PROJECT_DIR$/src/WWW/thedrake/Board.java" />
+        <option value="$PROJECT_DIR$/src/WWW/thedrake/GameState.java" />
+        <option value="$PROJECT_DIR$/src/WWW/thedrake/Army.java" />
+        <option value="$PROJECT_DIR$/src/WWW/thedrake/BoardTroops.java" />
+        <option value="$PROJECT_DIR$/src/WWW/thedrake/GameResult.java" />
       </list>
     </option>
   </component>
@@ -306,9 +312,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1280" />
-    <option name="width" value="1280" />
-    <option name="height" value="1412" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -318,7 +325,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -361,7 +368,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -372,13 +378,21 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541607523506" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/thedrake/thedrake" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tomáš\Documents\Weird-Wizards\src\WWW\thedrake" />
+      <recent name="C:\Users\User\Disk Google\FIT ČVUT\BI-PJV\Weird-Wizards\test" />
+      <recent name="C:\Users\User\Disk Google\FIT ČVUT\BI-PJV\Weird-Wizards" />
+      <recent name="C:\Users\User\Disk Google\FIT ČVUT\BI-PJV\Weird-Wizards\src\weirdwizards" />
+      <recent name="C:\Users\User\Disk Google\FIT ČVUT\BI-PJV\Weird-Wizards\.idea" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -387,13 +401,6 @@
       <recent name="C:\Users\User\Disk Google\FIT ČVUT\BI-PJV\Weird-Wizards" />
       <recent name="C:\Users\User\Disk Google\FIT ČVUT\BI-PJV\Weird-Wizards\test\src" />
       <recent name="C:\Users\User\Disk Google\FIT ČVUT\BI-PJV\Weird-Wizards\test" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Tomáš\Documents\Weird-Wizards\src\WWW\thedrake" />
-      <recent name="C:\Users\User\Disk Google\FIT ČVUT\BI-PJV\Weird-Wizards\test" />
-      <recent name="C:\Users\User\Disk Google\FIT ČVUT\BI-PJV\Weird-Wizards" />
-      <recent name="C:\Users\User\Disk Google\FIT ČVUT\BI-PJV\Weird-Wizards\src\weirdwizards" />
-      <recent name="C:\Users\User\Disk Google\FIT ČVUT\BI-PJV\Weird-Wizards\.idea" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -467,6 +474,7 @@
       <workItem from="1540394470162" duration="1432000" />
       <workItem from="1540403867531" duration="1634000" />
       <workItem from="1541605654045" duration="1869000" />
+      <workItem from="1541624211281" duration="3221000" />
     </task>
     <servers />
   </component>
@@ -476,13 +484,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15384000" />
+    <option name="totallyTimeSpent" value="18605000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2560" height="1412" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15684713" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15831557" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -519,6 +527,18 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/WWW/thedrake/Board.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/suite01/Offset2DTest.java" />
     <entry file="file://$PROJECT_DIR$/test/suite01/TroopTest.java" />
@@ -549,23 +569,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/Army.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/PlayingSide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/BoardPos.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -606,13 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/TilePos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/JSONSerializable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -620,25 +616,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/BoardTroops.java">
+    <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/TilePos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/GameState.java">
+    <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/TroopTile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="281" column="18" lean-forward="true" selection-start-line="281" selection-start-column="18" selection-end-line="281" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#army#0;class#GameState#0" />
-            <element signature="method#armyNotOnTurn#0;class#GameState#0" />
-          </folding>
+        <state relative-caret-position="825">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
@@ -651,50 +639,121 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/suite01/TroopTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="204">
           <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/Move.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/Tile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="170">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/TroopTile.java">
+    <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/BoardTile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="595">
+          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+          <folding>
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/GameResult.java">
+    <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/PlayingSide.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="34">
           <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/GameState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="778">
+          <caret line="277" column="21" lean-forward="true" selection-start-line="277" selection-start-column="21" selection-end-line="277" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#GameState#0;class#GameState#0" />
+            <element signature="method#GameState#1;class#GameState#0" />
+            <element signature="method#army#0;class#GameState#0" />
+            <element signature="method#armyNotOnTurn#0;class#GameState#0" />
+            <element signature="method#tileAt#0;class#GameState#0" />
+            <element signature="method#canStepFrom#0;class#GameState#0" />
+            <element signature="method#canStepTo#0;class#GameState#0" />
+            <element signature="method#canCaptureOn#0;class#GameState#0" />
+            <element signature="method#canPlaceFromStack#0;class#GameState#0" />
+            <element signature="method#stepOnly#0;class#GameState#0" />
+            <element signature="method#stepAndCapture#0;class#GameState#0" />
+            <element signature="method#captureOnly#0;class#GameState#0" />
+            <element signature="method#placeFromStack#0;class#GameState#0" />
+            <element signature="method#resign#0;class#GameState#0" />
+            <element signature="method#draw#0;class#GameState#0" />
+            <element signature="method#createNewGameState#0;class#GameState#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+        <state relative-caret-position="357">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
           <folding>
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
+            <element signature="method#withTiles#0;class#Board#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/BoardTile.java">
+    <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/Army.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        <state relative-caret-position="846">
+          <caret line="90" column="26" lean-forward="true" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/BoardTroops.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="761">
+          <caret line="145" column="44" lean-forward="true" selection-start-line="145" selection-start-column="44" selection-end-line="145" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/BoardMove.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WWW/thedrake/GameResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

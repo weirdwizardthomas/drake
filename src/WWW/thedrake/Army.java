@@ -1,5 +1,6 @@
 package WWW.thedrake;
 
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -77,5 +78,17 @@ public class Army {
 		newCaptured.add(troop);
 		
 		return new Army(boardTroops, stack, newCaptured);
-	}	
+	}
+
+    public void toJSON(PrintWriter writer) {
+		writer.printf("\"");
+        if(this.boardTroops.playingSide() == PlayingSide.ORANGE)
+            writer.printf("orange");
+        else
+            writer.printf("blue");
+
+        writer.printf("Army\":");
+        boardTroops.toJSON(writer);
+
+    }
 }

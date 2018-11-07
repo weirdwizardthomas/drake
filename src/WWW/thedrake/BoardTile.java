@@ -1,5 +1,6 @@
 package WWW.thedrake;
 
+import java.io.PrintWriter;
 import java.util.Collections;
 import java.util.List;
 
@@ -20,6 +21,11 @@ public interface BoardTile extends Tile {
 		public List<Move> movesFrom(BoardPos pos, GameState state) {
 			return Collections.emptyList();
 		}
+
+		@Override
+		public void toJSON(PrintWriter writer){
+			writer.printf("\"empty\"");
+		}
 	};
 	
 	public static final BoardTile MOUNTAIN = new BoardTile() {
@@ -36,6 +42,12 @@ public interface BoardTile extends Tile {
 		@Override
 		public List<Move> movesFrom(BoardPos pos, GameState state) {
 			return Collections.emptyList();
+		}
+
+
+		@Override
+		public void toJSON(PrintWriter writer){
+			writer.printf("\"mountain\"");
 		}
 	};
 }

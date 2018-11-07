@@ -10,19 +10,11 @@ public class GameState implements JSONSerializable{
 	private final Army orangeArmy;
 	private final GameResult result;
 	
-	public GameState(
-			Board board, 
-			Army blueArmy, 
-			Army orangeArmy) {
+	public GameState(Board board, Army blueArmy, Army orangeArmy) {
 		this(board, blueArmy, orangeArmy, PlayingSide.BLUE, GameResult.IN_PLAY);
 	}
 	
-	public GameState(
-			Board board, 
-			Army blueArmy, 
-			Army orangeArmy, 
-			PlayingSide sideOnTurn, 
-			GameResult result) {
+	public GameState(Board board, Army blueArmy, Army orangeArmy, PlayingSide sideOnTurn, GameResult result) {
 		this.board = board;
 		this.sideOnTurn = sideOnTurn;
 		this.blueArmy = blueArmy;
@@ -278,8 +270,12 @@ public class GameState implements JSONSerializable{
 
 	@Override
 	public void toJSON(PrintWriter writer) {
-        writer.append("\"result\": " + "\"" + result.toString() + "\",");
+        writer.printf("\"result\":");
+        result.toJSON(writer);
+        writer.printf(",");
         board.toJSON(writer);
+        writer.printf(",");
+        blueArmy.toJSON(writer);
     }
 
 }

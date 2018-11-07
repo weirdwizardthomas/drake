@@ -55,11 +55,25 @@ public final class Board {
 	}
 
 	public void toJSON(PrintWriter writer) {
-		writer.append("\"board\": ");
-		writer.append(" {");
-		writer.append("\"dimension\": " + dimension() + ",");
-		for(BoardTile tile : board)
-		    tile.toJSON(writer);
+		writer.printf("\"board\": ");
+		writer.printf(" {");
+		writer.printf("{\"dimension\": " + dimension() + ",");
+		writer.printf("\"tiles\":[");
+        int counter = 0;
+
+		for(BoardTile[] row : board)
+		{
+
+			for(BoardTile element : row)
+			{
+				counter++;
+				element.toJSON(writer);
+				if(counter < dimension()*dimension())
+					writer.printf(",");
+			}
+
+		}
+        writer.printf("]}");
 	}
 
 	public static class TileAt {
