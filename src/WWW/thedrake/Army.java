@@ -89,11 +89,13 @@ public class Army {
 
         writer.printf("Army\":{");
         boardTroops.toJSON(writer);
-        writer.printf(",");
-        stackToJSON(writer);
+		writer.printf(",");
+			TroopsToJSON(stack,writer);
+		writer.printf(",");
 
-    }
+	}
 
-	private void stackToJSON(PrintWriter writer) {
+	private void TroopsToJSON(List<Troop> list, PrintWriter writer) {
+		//TODO WORKING HERE
 	}
 }
