@@ -273,8 +273,10 @@ public class GameState implements JSONSerializable{
         writer.printf("\"result\":");
         result.toJSON(writer);
         writer.printf(",");
+
         board.toJSON(writer);
         writer.printf(",");
+
         blueArmy.toJSON(writer);
     }
 

@@ -87,8 +87,13 @@ public class Army {
         else
             writer.printf("blue");
 
-        writer.printf("Army\":");
+        writer.printf("Army\":{");
         boardTroops.toJSON(writer);
+        writer.printf(",");
+        stackToJSON(writer);
 
     }
+
+	private void stackToJSON(PrintWriter writer) {
+	}
 }

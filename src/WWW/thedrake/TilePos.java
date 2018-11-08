@@ -1,5 +1,6 @@
 package WWW.thedrake;
 
+import java.io.PrintWriter;
 import java.util.List;
 
 public interface TilePos {
@@ -73,4 +74,6 @@ public interface TilePos {
 			return "off-board";
 		}
 	};
+
+    public void toJSON(PrintWriter writer);
 }

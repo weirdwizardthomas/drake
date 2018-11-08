@@ -1,5 +1,6 @@
 package WWW.thedrake;
 
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -107,7 +108,12 @@ public class BoardPos implements TilePos {
   public boolean equalsTo(int i, int j) {
     return this.i == i && this.j == j;
   }
-  
+
+  @Override
+  public void toJSON(PrintWriter writer) {
+    writer.printf("\"" + column() + row() + "\"");
+  }
+
   @Override
   public boolean equals(Object obj) {
     if (this == obj)

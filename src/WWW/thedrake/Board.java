@@ -55,9 +55,9 @@ public final class Board {
 	}
 
 	public void toJSON(PrintWriter writer) {
-		writer.printf("\"board\": ");
-		writer.printf(" {");
-		writer.printf("{\"dimension\": " + dimension() + ",");
+		writer.printf("\"board\":");
+		writer.printf("{");
+		writer.printf("\"dimension\": " + dimension() + ",");
 		writer.printf("\"tiles\":[");
         int counter = 0;
 

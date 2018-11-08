@@ -144,5 +144,38 @@ public class BoardTroops {
     }
 
 	public void toJSON(PrintWriter writer) {
+		writer.printf("\boardTroops\":{");
+
+		playingSide.toJSON(writer);
+		writer.printf(",");
+
+		writer.printf("\"leaderPosition\":");
+		leaderPosition.toJSON(writer);
+		writer.printf(",");
+
+		writer.printf("\"guards\":" + guards() + ",");
+		troopMaptoJSON(writer);
+		writer.printf("}");
+
+	}
+
+	private void troopMaptoJSON(PrintWriter writer){
+
+		writer.printf("\"troopMap\":{");
+
+		int counter = 0;
+		for(BoardPos current : troopMap.keySet()) {
+			counter++;
+
+			current.toJSON(writer);
+			writer.printf(":{");
+			troopMap.get(current).toJSON(writer);
+
+			writer.printf("}");
+			if(counter < troopMap.size())
+				writer.printf(",");
+		}
+
+		writer.printf("}");
 	}
 }

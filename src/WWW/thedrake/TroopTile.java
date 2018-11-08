@@ -63,6 +63,10 @@ public class TroopTile implements Tile {
 
     @Override
     public void toJSON(PrintWriter writer) {
-
+        troop.toJSON(writer);
+        writer.printf(",");
+        side.toJSON(writer);
+        writer.printf(",");
+        face.toJSON(writer);
     }
 }

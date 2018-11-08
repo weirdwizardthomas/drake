@@ -1,5 +1,6 @@
 package WWW.thedrake;
 
+import java.io.PrintWriter;
 import java.util.List;
 
 public class Troop {
@@ -57,5 +58,9 @@ public class Troop {
      else {
          return reversActions;
      }
+    }
+
+    public void toJSON(PrintWriter writer) {
+        writer.printf("\"troop\":\"" + name() + "\"");
     }
 }
