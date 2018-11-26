@@ -57,22 +57,32 @@ public final class Board {
 	public void toJSON(PrintWriter writer) {
 		writer.printf("\"board\":");
 		writer.printf("{");
-		writer.printf("\"dimension\": " + dimension() + ",");
+		writer.printf("\"dimension\":" + dimension() + ",");
 		writer.printf("\"tiles\":[");
         int counter = 0;
 
-		for(BoardTile[] row : board)
-		{
+//		for(BoardTile[] row : board)
+//		{
+//
+//			for(BoardTile element : row)
+//			{
+//				counter++;
+//				element.toJSON(writer);
+//				if(counter < dimension()*dimension())
+//					writer.printf(",");
+//			}
+//
+//		}
 
-			for(BoardTile element : row)
-			{
-				counter++;
-				element.toJSON(writer);
+		for (int j = 0; j<dimension; j++) {
+            for(int i = 0; i<dimension; i++){
+                counter++;
+				board[i][j].toJSON(writer);
 				if(counter < dimension()*dimension())
-					writer.printf(",");
-			}
+				    writer.printf(",");
+            }
+        }
 
-		}
         writer.printf("]}");
 	}
 

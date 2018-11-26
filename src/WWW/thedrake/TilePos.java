@@ -73,6 +73,11 @@ public interface TilePos {
 		public String toString() {
 			return "off-board";
 		}
+
+		@Override
+		public void toJSON(PrintWriter writer){
+			writer.printf("\"off-board\"");
+		}
 	};
 
     public void toJSON(PrintWriter writer);

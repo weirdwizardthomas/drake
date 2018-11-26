@@ -9,7 +9,7 @@ import java.lang.reflect.Modifier;
 
 import org.junit.Test;
 
-import podlomar.thedrake.Offset2D;
+import WWW.thedrake.Offset2D;
 
 public class Offset2DTest {
 

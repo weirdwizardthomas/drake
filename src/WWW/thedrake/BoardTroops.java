@@ -1,11 +1,7 @@
 package WWW.thedrake;
 
 import java.io.PrintWriter;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Optional;
-import java.util.Set;
+import java.util.*;
 
 public class BoardTroops {
 	private final PlayingSide playingSide;
@@ -144,7 +140,7 @@ public class BoardTroops {
     }
 
 	public void toJSON(PrintWriter writer) {
-		writer.printf("\boardTroops\":{");
+		writer.printf("\"boardTroops\":{");
 
 		playingSide.toJSON(writer);
 		writer.printf(",");
@@ -163,8 +159,10 @@ public class BoardTroops {
 
 		writer.printf("\"troopMap\":{");
 
+        Map<BoardPos, TroopTile> sortedTroopMap = new TreeMap<>(troopMap);
+
 		int counter = 0;
-		for(BoardPos current : troopMap.keySet()) {
+		for(BoardPos current : sortedTroopMap.keySet()) {
 			counter++;
 
 			current.toJSON(writer);

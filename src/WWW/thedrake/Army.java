@@ -90,12 +90,24 @@ public class Army {
         writer.printf("Army\":{");
         boardTroops.toJSON(writer);
 		writer.printf(",");
-			TroopsToJSON(stack,writer);
+        writer.printf("\"stack\":");
+        TroopsToJSON(stack,writer);
 		writer.printf(",");
+        writer.printf("\"captured\":");
+        TroopsToJSON(captured,writer);
+        writer.printf("}");
 
 	}
 
 	private void TroopsToJSON(List<Troop> list, PrintWriter writer) {
-		//TODO WORKING HERE
+        writer.printf("[");
+		int cnt = 0;
+		for (Troop troop : list) {
+            writer.printf("\"" + troop.name() + "\"");
+            cnt++;
+            if(cnt < list.size())
+                writer.printf(",");
+        }
+        writer.printf("]");
 	}
 }

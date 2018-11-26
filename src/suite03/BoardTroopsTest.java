@@ -15,15 +15,15 @@ import java.util.Optional;
 
 import org.junit.Test;
 
-import podlomar.thedrake.Board;
-import podlomar.thedrake.BoardPos;
-import podlomar.thedrake.BoardTroops;
-import podlomar.thedrake.PlayingSide;
-import podlomar.thedrake.PositionFactory;
-import podlomar.thedrake.StandardDrakeSetup;
-import podlomar.thedrake.TilePos;
-import podlomar.thedrake.Troop;
-import podlomar.thedrake.TroopFace;
+import WWW.thedrake.Board;
+import WWW.thedrake.BoardPos;
+import WWW.thedrake.BoardTroops;
+import WWW.thedrake.PlayingSide;
+import WWW.thedrake.PositionFactory;
+import WWW.thedrake.StandardDrakeSetup;
+import WWW.thedrake.TilePos;
+import WWW.thedrake.Troop;
+import WWW.thedrake.TroopFace;
 
 public class BoardTroopsTest {
 

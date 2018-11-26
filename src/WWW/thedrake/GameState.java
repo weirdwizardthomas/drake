@@ -260,7 +260,7 @@ public class GameState implements JSONSerializable {
 
     @Override
     public void toJSON(PrintWriter writer) {
-        writer.printf("\"result\":");
+        writer.printf("{\"result\":");
         result.toJSON(writer);
         writer.printf(",");
 
@@ -268,5 +268,9 @@ public class GameState implements JSONSerializable {
         writer.printf(",");
     
         blueArmy.toJSON(writer);
+        writer.printf(",");
+
+        orangeArmy.toJSON(writer);
+        writer.printf("}");
     }
 }

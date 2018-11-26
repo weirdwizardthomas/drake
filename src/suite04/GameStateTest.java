@@ -9,14 +9,14 @@ import java.util.Collections;
 
 import org.junit.Test;
 
-import podlomar.thedrake.Army;
-import podlomar.thedrake.Board;
-import podlomar.thedrake.BoardTile;
-import podlomar.thedrake.GameState;
-import podlomar.thedrake.PlayingSide;
-import podlomar.thedrake.PositionFactory;
-import podlomar.thedrake.StandardDrakeSetup;
-import podlomar.thedrake.TilePos;
+import WWW.thedrake.Army;
+import WWW.thedrake.Board;
+import WWW.thedrake.BoardTile;
+import WWW.thedrake.GameState;
+import WWW.thedrake.PlayingSide;
+import WWW.thedrake.PositionFactory;
+import WWW.thedrake.StandardDrakeSetup;
+import WWW.thedrake.TilePos;
 
 public class GameStateTest {
 

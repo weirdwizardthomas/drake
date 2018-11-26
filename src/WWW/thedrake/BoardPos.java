@@ -4,7 +4,7 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BoardPos implements TilePos {
+public class BoardPos implements TilePos, Comparable<BoardPos>{
   private final int dimension;
   private final int i;
   private final int j;
@@ -133,5 +133,20 @@ public class BoardPos implements TilePos {
   @Override
   public String toString() {
     return String.format("%c%d", column(), row());
+  }
+
+  @Override
+  public int compareTo(BoardPos o) {
+    if (this.i() > o.i())
+        return 1;
+    else if (this.i() < o.i())
+        return -1;
+
+    if (this.j() > o.j())
+        return 1;
+    else if (this.j() < o.j())
+        return -1;
+
+    return 0;
   }
 }
